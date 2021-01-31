@@ -9,6 +9,7 @@ import {getCurrentUserAction} from 'src/app/auth/store/actions/getCurrentUser.ac
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  private test: string;
   constructor(private store: Store) {}
 
   ngOnInit(): void {
