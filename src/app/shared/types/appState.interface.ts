@@ -7,7 +7,7 @@ import {EditArticleStateInterface} from 'src/app/editArticle/types/editArticleSt
 import {SettingsStateInterface} from 'src/app/settingss/types/settingsState.interface'
 import {UserProfileStateInterface} from 'src/app/userProfile/types/userProfileState.interface'
 
-export interface AppStateInterface11 {
+export interface AppStateInterface {
   auth: AuthStateInterface
   feed: FeedStateInterface
   popularTags: PopularTagsStateInterface
